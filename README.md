@@ -4,5 +4,5 @@ Script em python que faz um brute-force de urls para fazer um mapeando de pagina
 
 ### Como utilziar
 `<python Urlscan.py URL Wordlist>` 
-
+`<sudo pip install -r requirements.txt>`
 
