@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 
 def scanner():
-    arquivo = open(wordlist, 'r')#Mudar para que coloque a wordlist depois de -w
+    arquivo = open(wordlist, 'r')
 
 
     for page in arquivo:
@@ -78,16 +78,3 @@ except:
     
 
 
-
-#print(f'Enconding: {req.encoding}')
-#print(f'Status code: {req.status_code}')
-#print(f'req.elapsed {req.elapsed}')
-#print(f'req.url  {req.url}')
-
-
-#print(f'req.history {req.history}')
-
-#print(f'History: ' {req.history})
- 
-#req.headers['Content-Type']
-# returns 'text/html; charset=utf-8'
