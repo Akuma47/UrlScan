@@ -3,6 +3,6 @@ Script em python que faz um brute-force de urls para fazer um mapeando de pagina
 
 
 ### Como utilziar
-`<addr>` python Urlscan.py URL Wordlist
+`<python Urlscan.py URL Wordlist>` 
 
 
