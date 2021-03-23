@@ -3,6 +3,9 @@ import time
 import os
 import sys
 from bs4 import BeautifulSoup 
+import platform
+
+syst = platform.system()
 
 
 
@@ -58,20 +61,33 @@ try:
     wordlist = sys.argv[2]
     req = requests.get(url)
 
+    
+
+
+
+
+
+
 
     
 
     if req.status_code == 200:
-        os.system('cls')
-        
+        if syst == 'Windows':
+            print('windows')
+            os.system('cls')
+
+        elif syst == 'Linux':
+            print('Linux')
+            os.system('clear')
+
         print(f'\u001b[33m[+] Iniciando scanner em {req.url}\u001b[0m')
         time.sleep(2)
-
         scanner()
-        
 
     else:
         print('Host não encontrado')
+
+
 except:
     print('\u001b[31m [+] Impossivel realizar a conexão com o host.\u001b[0m')
     print('\u001b[34m [!] Lembrese de colocar uma url apos a inicialização do programa\u001b[0m')
