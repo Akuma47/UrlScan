@@ -1,5 +1,0 @@
-akdakm
-robots.txt
-css
-js
-dev
